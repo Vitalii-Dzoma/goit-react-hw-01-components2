@@ -1,0 +1,14 @@
+.true {
+    color: green;
+    background-color: green;
+    border-radius: 70%;
+    
+}
+
+.false{
+    color: tomato;
+    background-color: tomato;
+    border-radius: 70%;
+  
+}
+
