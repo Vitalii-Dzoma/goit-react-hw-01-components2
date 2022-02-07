@@ -1,4 +1,4 @@
-import data from "../data.json"
+import data from '../../data.json'
 import propTypes from 'prop-types';
 import React from "react";
 import s from "./Statistics.module.css"
@@ -6,7 +6,7 @@ import s from "./Statistics.module.css"
 function Statistics({title, stats}) {
 return (
         <section className="statistics">
-            {title.length > 0 && <h2 className="title">{title}</h2>}
+            {title && <h2 className="title">{title}</h2>}
             <ul className={s.statList}>
                 {stats.map(item => 
                     <li className={s.item} key = {item.id} >
